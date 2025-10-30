@@ -9,7 +9,7 @@
 	"routes": [
 		{
 			"pattern": "spirit.hypnodroid.com",
-			"zone_name": "hypnodroid.com",
+			"zone_name": "aaronherres.com",
 			"custom_domain": true
 		}
 	],
