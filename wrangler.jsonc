@@ -9,7 +9,8 @@
 	"routes": [
 		{
 			"pattern": "spirit.hypnodroid.com/*",
-			"zone_name": "hypnodroid.com"
+			"zone_name": "hypnodroid.com",
+			"custom_domain": true
 		}
 	],
 	"observability": {
