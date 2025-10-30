@@ -1,0 +1,18 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "ollama-chat",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-10-29",
+	"assets": {
+		"directory": "./public"
+	},
+	"routes": [
+		{
+			"pattern": "spirit.hypnodroid.com/*",
+			"zone_name": "hypnodroid.com"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}

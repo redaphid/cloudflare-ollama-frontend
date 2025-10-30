@@ -1,0 +1,24 @@
+{
+	"name": "ollama-chat",
+	"version": "1.0.0",
+	"description": "Mobile-first Cloudflare Pages chat interface for Ollama",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"cf-typegen": "wrangler types"
+	},
+	"keywords": [
+		"ollama",
+		"chat",
+		"cloudflare",
+		"workers"
+	],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"typescript": "^5.5.2",
+		"wrangler": "^4.45.2"
+	}
+}
