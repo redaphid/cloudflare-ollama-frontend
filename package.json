@@ -1,0 +1,20 @@
+{
+  "name": "ollama-chat",
+  "version": "1.0.0",
+  "description": "Mobile-first Cloudflare Pages chat interface for Ollama",
+  "scripts": {
+    "dev": "wrangler pages dev public --compatibility-date=2024-01-01",
+    "deploy": "wrangler pages deploy public"
+  },
+  "keywords": [
+    "ollama",
+    "chat",
+    "cloudflare",
+    "pages"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
